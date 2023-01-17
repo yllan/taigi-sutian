@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+@font-face {
+  font-family: "GenSeki";
+  font-weight: 900;
+  src: url("font/GenSekiGothicTW-H-01.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GenSeki";
+  font-weight: 700;
+  src: url("font/GenSekiGothicTW-B-01.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GenSeki";
+  font-weight: 500;
+  src: url("font/GenSekiGothicTW-M-01.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GenSeki";
+  font-weight: 400;
+  src: url("font/GenSekiGothicTW-R-01.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GenSeki";
+  font-weight: 300;
+  src: url("font/GenSekiGothicTW-L-01.ttf") format("truetype");
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+p {
+	line-height: 1.5rem;
+}
+
+section	{
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+	margin: 0.6rem 0 0.6rem 0;
+	display: flex;
+	flex-direction: row;
+}
+
+div.def_no {
+	width: 1.5rem;
+	text-align: right;
+	margin: 0 4px;
+}
+
+div.def_element {
+	flex: auto;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+}
+
+.antonyms, .synonyms {
+	font-family: GenSeki;
+	font-size: 0.9rem;
+	line-height: 1rem;
+	margin: 0.5rem 1em 0.5em;
+	font-weight: lighter;
+	color: #00A2FF;
+}
+
+.reading {
+	font-family: sans-serif;
+	font-size: 0.7rem;
+	border: thin solid gray;
+	border-radius: 3px;
+	font-weight: lighter;
+	padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+	color: gray;
+	margin: 0 0.2rem 0 0.2rem;
+	vertical-align: middle;
+}
+
+ul.example {
+	font-size: 0.9rem;
+	font-weight: 400;
+	padding-inline: 2rem 0;
+	margin-block: 0.5rem 0.5rem;
+	list-style: '〖例〗 ';
+}
+
+ul.example li div {
+	line-height: 1.5rem;
+}
+
+ul.example li div.single_line {
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+
+div.example_hanyu {
+	font-weight: 300;
+}
+
+span.column {
+	display: block;
+	border: solid 2px #c0c0c0;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+}
+
+* {
+	font-family: GenSeki;
+}
+
+@media (prefers-color-scheme: light)
+{
+	ul.example {
+		color: #666;
+	}
+
+	.reading {
+		color: gray;
+	}
+}
+
+@media (prefers-color-scheme: dark)
+{
+	body {
+		color: white;
+	}
+
+	.reading {
+		color: white;
+	}
+
+	ul.example {
+		color: #ccc;
+	}
+}
+
+main #front_and_back {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+main #front_and_back hr {
+	border: 1px solid #555;
+}
+
+#dic_name {
+	text-align: right;
+	font-size: 3.5rem;
+	font-weight: 800;
+	margin-bottom: 4px;
+	color: #555;
+}
+
+#edition {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: right;
+	color: #555;
+}
+
+#front_and_back article {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 2rem;
+}
+
+dd {
+	margin-top: 1rem;
+}

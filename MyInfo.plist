@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>Taiwan</string>
+	<key>CFBundleIdentifier</key>
+	<string>tw.edu.dict.twblg.sutian</string>
+	<key>CFBundleName</key>
+	<string>台語</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.8.0</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>教育部台語常用詞辭典 &lt;br/&gt;Copyright © 2011 by Ministry of Education, Taiwan.</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>中華民國教育部</string>
+	<key>DCSDictionaryFrontMatterReferenceID</key>
+	<string>front_back_matter</string>
+	<key>DCSDictionaryPrefsHTML</key>
+	<string>sutian_prefs.html</string>
+	<key>DCSDictionaryXSL</key>
+	<string>sutian.xsl</string>
+	<key>DCSDictionaryDefaultPrefs</key>
+	<dict>
+		<key>pronunciation</key>
+		<string>0</string>
+		<key>display-picture</key>
+		<string>1</string>
+		<key>version</key>
+		<string>1</string>
+	</dict>
+	<key>DCSDictionaryUseSystemAppearance</key>
+	<true/>
+</dict>
+</plist>
