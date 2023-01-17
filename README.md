@@ -1,5 +1,10 @@
 # 台語常用詞辭典
 
+將教育部《臺灣閩南語常用詞辭典》製作成 macOS 內建的辭典格式，可以直接在任何 app 內查詢台語詞彙。
+
+![](images/dict.png)
+![](images/inplace.png)
+
 ## 安裝
 
 1. 去 [release](https://github.com/yllan/taigi-sutian/releases) 頁面，下載最新版的 `dictionary.zip`。
