@@ -145,4 +145,4 @@ for (let idx = 100; idx < 150; idx++) {
   test += e.heteronyms.map(h => heteronyms(e.title, h)).join('\n')
 }
 test += '</body>'
-fs.writeFileSync('OtherResources/test.html', test)
+fs.writeFileSync('test.html', test)
