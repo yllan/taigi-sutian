@@ -48,5 +48,9 @@ install:
 	echo "Done."
 	echo "To test the new dictionary, try Dictionary.app."
 
+test:
+	osascript -e 'quit app "Dictionary"'
+	osascript -e 'tell app "Dictionary" to activate'
+
 clean:
 	$(RM) -rf $(DICT_DEV_KIT_OBJ_DIR)
